@@ -1,0 +1,55 @@
+weather, image source
+thunderstorm with rain,	https://openweathermap.org/img/wn/11d@2x.png
+thunderstorm with heavy rain, https://openweathermap.org/img/wn/11d@2x.png
+light thunderstorm, https://openweathermap.org/img/wn/11d@2x.png
+thunderstorm, https://openweathermap.org/img/wn/11d@2x.png
+heavy thunderstorm, https://openweathermap.org/img/wn/11d@2x.png
+ragged thunderstorm, https://openweathermap.org/img/wn/11d@2x.png
+thunderstorm with light drizzle, https://openweathermap.org/img/wn/11d@2x.png
+thunderstorm with drizzle, https://openweathermap.org/img/wn/11d@2x.png
+thunderstorm with heavy drizzle, https://openweathermap.org/img/wn/11d@2x.png
+light intensity drizzle, https://openweathermap.org/img/wn/09d@2x.png
+drizzle, https://openweathermap.org/img/wn/09d@2x.png
+heavy intensity drizzle, https://openweathermap.org/img/wn/09d@2x.png
+light intensity drizzle rain, https://openweathermap.org/img/wn/09d@2x.png
+drizzle rain, https://openweathermap.org/img/wn/09d@2x.png
+heavy intensity drizzle rain, https://openweathermap.org/img/wn/09d@2x.png
+shower rain and drizzle, https://openweathermap.org/img/wn/09d@2x.png
+heavy shower rain and drizzle, https://openweathermap.org/img/wn/09d@2x.png
+shower drizzle, https://openweathermap.org/img/wn/09d@2x.png
+light rain, https://openweathermap.org/img/wn/10d@2x.png
+moderate rain, https://openweathermap.org/img/wn/10d@2x.png
+heavy intensity rain, https://openweathermap.org/img/wn/10d@2x.png
+very heavy rain, https://openweathermap.org/img/wn/10d@2x.png
+extreme rain, https://openweathermap.org/img/wn/10d@2x.png
+freezing rain, https://openweathermap.org/img/wn/13d@2x.png
+light intensity shower rain, https://openweathermap.org/img/wn/09d@2x.png
+shower rain, https://openweathermap.org/img/wn/09d@2x.png
+heavy intensity shower rain, https://openweathermap.org/img/wn/09d@2x.png
+ragged shower rain, https://openweathermap.org/img/wn/09d@2x.png
+light snow, https://openweathermap.org/img/wn/13d@2x.png
+snow, https://openweathermap.org/img/wn/13d@2x.png
+heavy snow, https://openweathermap.org/img/wn/13d@2x.png
+sleet, https://openweathermap.org/img/wn/13d@2x.png
+light shower sleet, https://openweathermap.org/img/wn/13d@2x.png
+shower sleet, https://openweathermap.org/img/wn/13d@2x.png
+light rain and snow, https://openweathermap.org/img/wn/13d@2x.png
+rain and snow, https://openweathermap.org/img/wn/13d@2x.png
+light shower snow, https://openweathermap.org/img/wn/13d@2x.png
+shower snow, https://openweathermap.org/img/wn/13d@2x.png
+heavy shower snow, https://openweathermap.org/img/wn/13d@2x.png
+mist, https://openweathermap.org/img/wn/50d@2x.png
+smoke, https://openweathermap.org/img/wn/50d@2x.png
+haze, https://openweathermap.org/img/wn/50d@2x.png
+sand/dust whirls, https://openweathermap.org/img/wn/50d@2x.png
+fog, https://openweathermap.org/img/wn/50d@2x.png
+sand, https://openweathermap.org/img/wn/50d@2x.png
+dust, https://openweathermap.org/img/wn/50d@2x.png
+volcanic ash, https://openweathermap.org/img/wn/50d@2x.png
+squalls, https://openweathermap.org/img/wn/50d@2x.png
+tornado, https://openweathermap.org/img/wn/50d@2x.png
+clear sky, https://openweathermap.org/img/wn/01d@2x.png
+few clouds: 11-25%, https://openweathermap.org/img/wn/02d@2x.png
+scattered clouds: 25-50%, https://openweathermap.org/img/wn/03d@2x.png
+broken clouds: 51-84%, https://openweathermap.org/img/wn/04d@2x.png
+overcast clouds: 85-100%, https://openweathermap.org/img/wn/04d@2x.png
