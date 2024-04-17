@@ -9,8 +9,9 @@
 <body class="bg-info text-white">
     <div class="text-center">
         <h1 class="mt-5">Weather App</h1>
+        <br>
         <form action="/" method="post">
-            <!-- Format into different divs to create three columns for the three -->
+            <!-- Format into different divs to create three columns for the three different inputs -->
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
@@ -28,12 +29,15 @@
             <button class="submit btn btn-secondary">Find</button>
             <br>
         </form>
-        <!-- checks if the data is valid data from the data sources -->
+        <!-- checks if the data (from get_current_weather of weather.py) is valid data from the data sources -->
         {% if data %}
         <br>
+        <!-- writes the weather forecast: description -->
         {{data.main}}: {{ data.description }} <br>
-        <img src="https://openweathermap.org/img/wn/{{data.icon}}@2x.png" alt="icon">
+        <!-- prints the icon that was taken for the csv file in weather.py -->
+        <img src={{data.icon}} alt="icon">
         <br>
+        <!-- prints the temperature with an F, for farenheit -->
         {{data.temperature}} F
         {% endif %}
     </div>
