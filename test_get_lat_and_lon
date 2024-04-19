@@ -1,0 +1,14 @@
+from weather import get_lat_and_long
+import pytest
+
+@pytest.mark.parametrize(("city", "state", "country", "expected"), 
+                         [pytest.param("Atlanta", "Georgia", "US", "33.7489924 -84.3902644", id='gets correct lat/long value'),
+                         pytest.param("Atlanta", "GA", "USA" "33.7489924 -84.3902644", id='uses abbreviations')])
+
+def test_get_lat_and_long(city, state, country, expected):
+    assert get_lat_and_long(city, state, country) == expected
+
+def test_get_lat_and_long_invalid():
+        with pytest.raises(SystemExit) as e:
+            get_lat_and_long("Atlanta", "New York", "United States")
+        assert e.value.code == 1

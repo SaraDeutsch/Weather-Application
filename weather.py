@@ -46,5 +46,6 @@ def main(city, state, country):
     return weather_data
 
 if __name__ == "__main__":
-    lat, lon = get_lat_and_long('Toronto', 'ON', 'Canada', api_key)
+    lat, lon = get_lat_and_long('Atlanta', 'GA', 'US', api_key)
+    print(lat, lon)
     print(get_current_weather(lat, lon, api_key))
