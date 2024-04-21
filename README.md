@@ -1,5 +1,4 @@
 # __*Weather Application*__
-![GitHub](https://img.shields.io/github/license/JDouglasR/Readme-Generator)
 
 ## __Description__
 This application accepts the user inupted city, state, and country. Using this link for the weather API, it locates the latitude and longitude of that location to find the weather, using a different function on that same site.
