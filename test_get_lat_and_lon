@@ -3,7 +3,7 @@ import pytest
 
 @pytest.mark.parametrize(("city", "state", "country", "expected"), 
                          [pytest.param("Atlanta", "Georgia", "US", "33.7489924 -84.3902644", id='gets correct lat/long value'),
-                         pytest.param("Atlanta", "GA", "USA" "33.7489924 -84.3902644", id='uses abbreviations')])
+                         pytest.param("Atlanta", "GA", "USA","33.7489924 -84.3902644", id='uses abbreviations')])
 
 def test_get_lat_and_long(city, state, country, expected):
     assert get_lat_and_long(city, state, country) == expected
